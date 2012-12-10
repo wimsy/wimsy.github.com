@@ -7,3 +7,5 @@ The following directories and their contents are copyright Michael Wimsatt. You 
 * images
 
 The remainder is heavily leveraged from Github's default "minimal" template and, as such, inherits whatever license they hold over it. Inasmuch as no license applies, the other files and directories are MIT licensed.  Use at your discretion.
+
+I also stole some layout love from @mojombo.
