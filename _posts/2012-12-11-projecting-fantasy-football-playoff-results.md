@@ -1,3 +1,11 @@
+---
+layout: post
+title: Projecting Fantasy Football Playoff Results with Monte Carlo Simulation
+published: true
+category: Learning
+tags: [yql, monte carlo, simulation, python, api, yahoo]
+---
+
 # Projecting Fantasy Football Playoff Results with Monte Carlo Simulation
 
 For me, the most interesting facet of fantasy football has been the wealth of data available and novl ways to apply it. Fantasy baseball fans might argue that their game has even more of it but, honestly, who has the time?
@@ -68,7 +76,7 @@ Of course, I wanted to understand whether my assumption that season-long scoring
 
 Implicit in this model is the assumption that scoring is (more or less) normally distributed, and the distribution doesn't change over time. One way to get a sense for that is to take a look at the distributions of scoring.
 
-![Distribution of scores](./images/ffball_dist_1.png "Full-season distribution of scores for the top four teams.")
+![Distribution of scores](/images/ffball_dist_1.png "Full-season distribution of scores for the top four teams.")
 
 As you can see, not a single one of these is a clean normal distribution.  The most obvious is that of the *Usual Suspects*.  This appears to be essentially a bimodal distribution where (more often) the team hovers around unremarkable sub-150 point scores, but has a significant number of games in the more impressive high 100's.
 
@@ -76,7 +84,7 @@ My own team, *Ain't no NCAA*, shows a tendency to frequently underperform relati
 
 To get a better feel for how things are looking now (versus a full-season look), I performed the same analysis on just the last seven weeks of the regular season.
 
-![Distribution of scores - last 7 weeks](./images/ffball_dist_2.png "Second-half distribution of scores for the top four teams.")
+![Distribution of scores - last 7 weeks](/images/ffball_dist_2.png "Second-half distribution of scores for the top four teams.")
 
 As you can see, this new look doesn't bode well for me or my good friends the *Usual Suspects*. Our second-half performances have been decidedly sub-par, although my team benefited from one or two outlier performances timed perfectly to keep me at the top of the standings.  Meanwhile, *Sproles Royce* has come on strong in the final weeks (even occupying the top spot for one week), and that's obvious with their consistently high scoring.  And the *C-Men* have managed to carry their consistency through the final seven weeks.
 
