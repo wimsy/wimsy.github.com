@@ -108,13 +108,8 @@ I re-ran the simulation and, as expected, the projected results don't look great
 		<td>Final Rank</td>
 		<td>Ain't no NCAA</td>
 		<td>Sproles Royce</td>
-<<<<<<< HEAD
 		<td>C-Men</td>
 		<td>Usual Suspects</td>
-=======
-		<td>Usual Suspects</td>
-		<td>C-Men</td>
->>>>>>> e39fdcf9a96b44666e34b1b50fb9a6a2ade2138b
 	</tr>
 	<tr>
 		<td>1st</td>
