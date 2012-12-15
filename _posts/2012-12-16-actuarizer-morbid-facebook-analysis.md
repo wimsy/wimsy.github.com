@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Actuarize - Creep Out Your Friends with Actuarial Tables
+title: Actuarize to Creep Out Your Friends with Actuarial Tables
 published: true
 tags: [fql, facebook, xkcd, python, api, actuary]
 comments: true
 ---
 
-# Actuarize - Creep Out Your Friends with Actuarial Tables
+# Actuarize to Creep Out Your Friends with Actuarial Tables
 
 I don't know. I guess I was feeling a bit morose this week. Nah, actually I've wanted to do this ever since I came across [xkcd](http://www.xkcd.com)'s [clever use of actuarial tables](http://blog.xkcd.com/2012/07/12/a-morbid-python-script/). Also, I wanted an excuse to try out the [Facebook Open Graph API](https://developers.facebook.com/docs/reference/apis/). 
 
