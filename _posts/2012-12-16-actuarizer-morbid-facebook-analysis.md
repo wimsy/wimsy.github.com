@@ -41,4 +41,4 @@ Probability of all dying in 1.0 year: &lt;0.001%
 Probability of a death within 1.0 year: 33.16%
 </pre>
 
-It's kind of scary to think someone I care about has a 50% chance of bing gone in 20 short months. It's also hard no to ascribe that to a specific person in my mind, although that's not strictly valid, given that these numbers reflect the aggregate risk of accidents, premature illness and a whole host of age-related death dealing ailments.
+It's kind of scary to think someone I care about has a 50% chance of bing gone in 20 short months. It's also hard no to ascribe that to a specific person in my mind, although that's not strictly valid, given that these numbers reflect the aggregate risk of accidents, premature illness and a whole host of age-related death-dealing ailments.
