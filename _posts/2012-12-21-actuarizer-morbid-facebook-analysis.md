@@ -1,20 +1,20 @@
 ---
 layout: post
 title: Actuarize to Creep Out Your Friends with Actuarial Tables
-published: false
+published: true
 tags: [fql, facebook, xkcd, python, api, actuary, flask]
 comments: true
 ---
 
 # Actuarize to Creep Out Your Friends with Actuarial Tables
 
-So, now that we've all survived the [end of the world](http://en.wikipedia.org/wiki/2012_phenomenon), it feels like we could all use a statistical discussion of our collective mortality. Nah, actually I've wanted to do this ever since I came across [xkcd](http://www.xkcd.com)'s [clever use of actuarial tables](http://blog.xkcd.com/2012/07/12/a-morbid-python-script/). Also, I wanted an excuse to try out the [Facebook Open Graph API](https://developers.facebook.com/docs/reference/apis/). 
+So, now that we've all survived the [end of the world](http://en.wikipedia.org/wiki/2012_phenomenon), it feels like we could use a statistical discussion of our collective mortality. Right? No? Actually I've wanted to do this ever since I came across [xkcd](http://www.xkcd.com)'s [clever use of actuarial tables](http://blog.xkcd.com/2012/07/12/a-morbid-python-script/). Also, I wanted an excuse to try out the [Facebook Open Graph API](https://developers.facebook.com/docs/reference/apis/). 
 
 So, I'm going to use cold, hard statistics to tell my friends when they can expect to die. Not any particular friend, mind you, but some statistical sampling of them. I even worked with my friend [Scott](https://github.com/scottlnorvell) to whip up a little web app that anyone can do to get the same basic stats that xkcd pulled together.
 
 ## What I learned
 - I had my first ugly experience with [Facebook's OAuth process](https://developers.facebook.com/docs/howtos/login/login-for-desktop/). I'm not going to say that I exhausted it (or even learned what I was doing wrong) but it was painful nonetheless. I think if I ever get serious about using Facebook data, I'll need to revisit this at length.
-- After my failed attempt at Facebook's OAuth, I punted and chose to use [Temboo](http://www.temboo.com) to accomplish the login task. They provide the necessary Callback URL that I found so challenging the first time around (the idea for a web app came later).
+- After my failed attempt at Facebook's OAuth, I punted and chose to use [Temboo](http://www.temboo.com) to accomplish the login task. They provide the necessary callback URL that I found so challenging the first time around (the idea for a web app came later, so setting up a webpage seemed like overkill for some basic number crunching).
 - I used the standard [Facebook Python SDK](https://github.com/pythonforfacebook/facebook-sdk/) with [FQL](https://developers.facebook.com/docs/reference/fql/) for the data requests themselves.
 - [Scott](https://github.com/scottlnorvell) adapted xkcd's [actuary.py script](http://blog.xkcd.com/2012/07/12/a-morbid-python-script/) to receive input from downloaded Facebook data and return the standard response.
 - I took my first run at building something on the [Flask](http://flask.pocoo.org/) web framework, along with [Flask Bootstrap](https://github.com/mbr/flask-bootstrap) for formatting.
@@ -44,7 +44,7 @@ Probability of a death within 1.0 year: 33.50%
 It's kind of scary to think someone I care about has a 50% chance of being gone in 20 short months. It's also hard no to ascribe that to a specific person in my mind, although that's not strictly valid, given that these numbers reflect the aggregate risk of accidents, premature illness and a whole host of age-related death-dealing ailments.
 
 ## Lifetime footprints
-I also wanted to plot the lifetime footprint of my current Facebook friends a la [xkcd's astronaut analysis](http://xkcd.com/893/). Unfortunately, I was unable to find a computationally efficient to develop an analytical solution, so I fell back to the trusty Monte Carlo simulation.  Form that, however, I was quickly able to develop "die-off" curves at 5%, 50% and 95% probabilities. I also added a "birth" curve to describe my Facebook friends coming into the world.
+I also wanted to plot the lifetime footprint of my current Facebook friends a la [xkcd's astronaut analysis](http://xkcd.com/893/). Unfortunately, I was unable to find a computationally efficient way to develop an analytical solution, so I fell back to the trusty Monte Carlo simulation.  From that, however, I was quickly able to develop "die-off" curves at 5%, 50% and 95% probabilities. I also added a "birth" curve to describe my Facebook friends coming into the world.
 
 ![The living footprint of my Facebook friends](/images/wimsy_friends_lifetime_windows.png "My friends coming into the world, then leaving it at 5%, 50% and 95% probability.")
 
