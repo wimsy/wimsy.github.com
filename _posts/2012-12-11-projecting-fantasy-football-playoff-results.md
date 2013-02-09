@@ -90,7 +90,7 @@ To get a better feel for how things are looking now (versus a full-season look),
 
 ![Distribution of scores - last 7 weeks](/images/ffball_dist_2.png "Second-half distribution of scores for the top four teams.")
 
-As you can see, this new look [doesn't bode well for me or my good friends the *Usual Suspects* paints a slightly different picture.
+As you can see, this new look doesn't bode well for me or my good friends the *Usual Suspects* paints a slightly different picture.
 
 *Ain't no NCAA*: My boys have seemed to either really bring it or stink it up over the last seven weeks, with peaks near 140 and 180.  This makes for a very unpredictable outcome for me.  I could probably model around this bimodal distribution but, hey, it's just a game!
 
