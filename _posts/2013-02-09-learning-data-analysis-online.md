@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Learning Data Analysis Online
 tags: [learning, computational methods, ipython, matlab, octave, coursera]
+comments: true
 ---
 
 # Learning Data Analysis Online

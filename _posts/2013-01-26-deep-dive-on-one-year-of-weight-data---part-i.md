@@ -3,6 +3,7 @@ layout: post
 title: Deep Dive on One Year of Weight Data - Part I
 published: true
 tags: [python, pandas, quantified self, health]
+comments: true
 ---
 
 # Deep Dive on One Year of Weight Data - Part I
@@ -91,5 +92,5 @@ One pretty predictable element of my weight loss fluctuations was the weekly pat
 
 ![](/images/Weight_Analysis___First_Pass_fig_04.png)
 
-So, that's the weight data itself (the outcome). But, what about the inputs that drove this weight loss - calories in and calories out? That's the next post in this series.
+So, that's the weight data itself (the outcome). But, what about the inputs that drove this weight loss - calories in and calories out? That's the [next post](/2013/03/01/deep-dive-on-one-year-of-weight-data---part-ii.html) in this series.
 
