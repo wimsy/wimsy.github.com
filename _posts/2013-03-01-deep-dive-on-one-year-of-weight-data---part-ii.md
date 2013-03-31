@@ -134,4 +134,4 @@ On average, I
 
 Also, I lost 71 pounds over the 356 day period, or an average of 0.20 pounds per day. At 3,500 calories per pound, that equates to 700 calories per day. So, it looks like I lost more weight than I should have given the reported calorie data.
 
-The next post will dig into possible sources of error and explore whether the data themselves can help us understand where I went wrong.
+The [next post](/2013/03/31/deep-dive-on-one-year-of-weight-data---part-iii.html) will dig into possible sources of error and explore whether the data themselves can help us understand where I went wrong.
