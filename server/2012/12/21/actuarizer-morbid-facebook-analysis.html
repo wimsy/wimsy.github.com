@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Quantary by wimsy</title>
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Quantary</h1>
+        <p>Michael Wimsatt's GitHub blog</p>
+
+		<p class="view">
+			<a href="/">Home</a><br>
+			<a href="/about/">About Quantary</a><br>
+		</p>
+
+        <p class="view">
+			<a href="https://github.com/wimsy">View my GitHub profile</a><br>
+			<a href="http://michaelwimsatt.com">View my vanity page</a><br>
+		</p>
+
+      </header>
+	  <section>
+		
+		<div id="post">
+<h1 id='actuarize_to_creep_out_your_friends_with_actuarial_tables'>Actuarize to Creep Out Your Friends with Actuarial Tables</h1>
+
+<p>So, now that we&#8217;ve all survived the <a href='http://en.wikipedia.org/wiki/2012_phenomenon'>end of the world</a>, it feels like we could use a statistical discussion of our collective mortality. Right? No? Actually I&#8217;ve wanted to do this ever since I came across <a href='http://www.xkcd.com'>xkcd</a>&#8217;s <a href='http://blog.xkcd.com/2012/07/12/a-morbid-python-script/'>clever use of actuarial tables</a>. Also, I wanted an excuse to try out the <a href='https://developers.facebook.com/docs/reference/apis/'>Facebook Open Graph API</a>.</p>
+
+<p>So, I&#8217;m going to use cold, hard statistics to tell my friends when they can expect to die. Not any particular friend, mind you, but some statistical sampling of them. I even worked with my friend <a href='https://github.com/scottlnorvell'>Scott</a> to whip up a little web app that anyone can do to get the same basic stats that xkcd pulled together.</p>
+
+<h2 id='what_i_learned'>What I learned</h2>
+
+<ul>
+<li>I had my first ugly experience with <a href='https://developers.facebook.com/docs/howtos/login/login-for-desktop/'>Facebook&#8217;s OAuth process</a>. I&#8217;m not going to say that I exhausted it (or even learned what I was doing wrong) but it was painful nonetheless. I think if I ever get serious about using Facebook data, I&#8217;ll need to revisit this at length.</li>
+
+<li>After my failed attempt at Facebook&#8217;s OAuth, I punted and chose to use <a href='http://www.temboo.com'>Temboo</a> to accomplish the login task. They provide the necessary callback URL that I found so challenging the first time around (the idea for a web app came later, so setting up a webpage seemed like overkill for some basic number crunching).</li>
+
+<li>I used the standard <a href='https://github.com/pythonforfacebook/facebook-sdk/'>Facebook Python SDK</a> with <a href='https://developers.facebook.com/docs/reference/fql/'>FQL</a> for the data requests themselves.</li>
+
+<li><a href='https://github.com/scottlnorvell'>Scott</a> adapted xkcd&#8217;s <a href='http://blog.xkcd.com/2012/07/12/a-morbid-python-script/'>actuary.py script</a> to receive input from downloaded Facebook data and return the standard response.</li>
+
+<li>I took my first run at building something on the <a href='http://flask.pocoo.org/'>Flask</a> web framework, along with <a href='https://github.com/mbr/flask-bootstrap'>Flask Bootstrap</a> for formatting.</li>
+</ul>
+
+<p>It&#8217;s really amazing how quickly you can discover new tools and techniques when you&#8217;re exploring. Most of the tools listed above were not on the agenda, but they seemed to solve the problems I had or enable us to take the project a step further.</p>
+
+<p>The basic code for downloading data and processing it is <a href='https://github.com/wimsy/actuary'>here</a>, lightly documented (at best) as usual.</p>
+
+<h2 id='the_results'>The results</h2>
+
+<p>When I finally downloaded the data and calculated ages, my 491 or so friends dwindled to 146 in the analysis population. I don&#8217;t know if anything about a person who would suppress a birth year (age) that would necessarily skew the data, but that is certainly a source of potential error.</p>
+
+<p>However, out of that population I was able to derive the following statistical predictions:</p>
+<pre>
+There is a 5%  chance of someone dying within 0.12 years (by 2013).
+There is a 50% chance of someone dying within 1.64 years (by 2014).
+There is a 95% chance of someone dying within 5.88 years (by 2018).
+
+There is a 5%  chance of everyone dying within 67.26 years (by 2080).
+There is a 50% chance of everyone dying within 72.11 years (by 2085).
+There is a 95% chance of everyone dying within 78.3 years (by 2091).
+
+Probability of all dying in 1.0 year: &lt;0.001%
+Probability of a death within 1.0 year: 33.50%
+</pre>
+<p>It&#8217;s kind of scary to think someone I care about has a 50% chance of being gone in 20 short months. It&#8217;s also hard no to ascribe that to a specific person in my mind, although that&#8217;s not strictly valid, given that these numbers reflect the aggregate risk of accidents, premature illness and a whole host of age-related death-dealing ailments.</p>
+
+<h2 id='lifetime_footprints'>Lifetime footprints</h2>
+
+<p>I also wanted to plot the lifetime footprint of my current Facebook friends a la <a href='http://xkcd.com/893/'>xkcd&#8217;s astronaut analysis</a>. Unfortunately, I was unable to find a computationally efficient way to develop an analytical solution, so I fell back to the trusty Monte Carlo simulation. From that, however, I was quickly able to develop &#8220;die-off&#8221; curves at 5%, 50% and 95% probabilities. I also added a &#8220;birth&#8221; curve to describe my Facebook friends coming into the world.</p>
+
+<p><img alt='The living footprint of my Facebook friends' src='/images/wimsy_friends_lifetime_windows.png' /></p>
+
+<p>So, we came into the world beginning in 1937 (with a huge pickup in the 70&#8217;s). And we&#8217;ll all (probably) be gone by 2091. Not a bad run&#8230;</p>
+
+<p>If you want to try it yourself, head on over to <a href='http://wmsy.me/actuarize'>Actuarize</a>, but please be patient. This is a low-volume web app.</p>
+</div>
+
+<div id="related">
+  <h2><em>Related Posts</em></h2>
+  <ul class="posts">
+    
+      <li><span>13 Mar 2013</span> &raquo; <a href="/2013/03/13/deep-dive-on-one-year-of-weight-data---part-iii.html">Deep Dive on One Year of Weight Data - Part III</a></li>
+    
+      <li><span>01 Mar 2013</span> &raquo; <a href="/2013/03/01/deep-dive-on-one-year-of-weight-data---part-ii.html">Deep Dive on One Year of Weight Data - Part II</a></li>
+    
+      <li><span>09 Feb 2013</span> &raquo; <a href="/2013/02/09/learning-data-analysis-online.html">Learning Data Analysis Online</a></li>
+    
+  </ul>
+</div>
+
+<div id="comments">
+  <ul class="posts">
+    
+     <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'quantary'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+  </ul>
+</div>
+
+		
+	  </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
