@@ -10,7 +10,7 @@ comments: true
 In the [last post](/2013/01/26/deep-dive-on-one-year-of-weight-data---part-i.html), I dug into a year's worth of weight data, describing the patterns and trends I saw, and offering some explanations for each. Here we're going to measure results against the theoretical weight loss based on well-established calorie-to-fat (and muscle) formulas to see just how predictive my recorded food and exercise data really was. 
 
 ##Analyzing calories in and calories out
-In addition to weighing myself daily, I recorded what I ate and all my exercise using an iPhone app called [LoseIt!](http://loseit.com/). I'll attempt to detere how much of my weight loss was directly attributable to my calorie deficit.
+In addition to weighing myself daily, I recorded what I ate and all my exercise using an iPhone app called [LoseIt!](http://loseit.com/). I'll attempt to determine how much of my weight loss was directly attributable to my calorie deficit.
 
 ###Calculating calorie deficit
 First of all, how does one calculate a calorie deficit?  Generally, it looks like this:
@@ -41,7 +41,7 @@ As you can see, my base calorie burn declined significantly as I lost weight. Th
 ![](/images/Weight_Analysis___First_Pass_fig_06.png)
 
 
-As you can see, I exercised regularly throughout my weight loss, with the total energy expenditure increasing signficantly in 2010 as I started running longer distances.
+As you can see, I exercised regularly throughout my weight loss, with the total energy expenditure increasing significantly in 2010 as I started running longer distances.
 
 <div class="highlight"><pre><span class="n">cal_consumption</span> <span class="o">=</span> <span class="n">Series</span><span class="p">(</span>
         <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">&#39;data/FoodCalories4392.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="s">&#39;Date&#39;</span><span class="p">,</span>
