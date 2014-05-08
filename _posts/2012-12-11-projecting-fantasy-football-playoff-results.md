@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projecting Fantasy Football Playoff Results with Monte Carlo Simulation
-published: false
+published: true
 tags: [yql, monte carlo, simulation, python, api, yahoo]
 comments: true
 ---
