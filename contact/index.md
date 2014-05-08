@@ -17,6 +17,6 @@ If you need to hear from me in:
 
 - whenever convenient: social media
 
-*Inspired by [](gettingtoi.ch).*
+*Inspired by [gettingintou.ch](http://gettingintou.ch).*
 *Save our inboxes: [emailcharter.org](http://emailcharter.org)*
 
