@@ -5,7 +5,7 @@ title: How to Contact Me
 
 # How to Contact Me
 
-If you need something to be done in:
+If you need to hear from me in:
 
 - 30 minutes: call
 
@@ -17,6 +17,6 @@ If you need something to be done in:
 
 - whenever convenient: social media
 
-
+*Inspired by [](gettingtoi.ch).*
 *Save our inboxes: [emailcharter.org](http://emailcharter.org)*
 
