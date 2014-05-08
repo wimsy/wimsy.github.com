@@ -155,7 +155,7 @@ My projection for the final ranking:
 	</tr>
 	<tr>
 		<td>2nd Place</td>
-		<td>Ain't no NCAA'</td>
+		<td>Ain't no NCAA</td>
 	</tr>
 	<tr>
 		<td>3rd Place</td>
