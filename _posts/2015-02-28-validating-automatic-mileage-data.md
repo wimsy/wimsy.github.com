@@ -1,14 +1,19 @@
 ---
+title: Validating Automatic Mileage & Cost Data
+author: "Michael Wimsatt"
+date: "February 21, 2015"
+output: html_document
 layout: post
 published: true
 tags: [R, mileage, automatic]
 comments: true
-title: Validating Automatic Mileage & Cost Data
 ---
 
 # Validating Automatic data
 
-Last March I purchased [Automatic](http://www.automatic.com/), a wirelss adapter plugs into my car's diagnostic port and syncs with my iPhone to report and record data about my driving. Among other things, Automatic provides:
+*Note: Code for this analysis available [on GitHub](https://github.com/wimsy/mileage_analysis/blob/master/validation.Rmd).*
+
+Last March I purchased [Automatic](http://www.automatic.com/), an adapter that plugs into my car's diagnostic port and syncs with an app on my iPhone to report and record data about my driving. Among other things, Automatic provides:
 
 - route, miles and time driven
 - gas consumed
@@ -74,7 +79,7 @@ Here you can see that, while total mileage and fuel consumption are off, the pri
 
 ## Monthly analysis
 
-Even over time, the Automatic rate data seems acurate. The total monthly mileage tracks well between actuals and Automatic's calculations. I suspect the major month-to-month differences are a result of missed trips and timing mismatches between the trips data and my fill-up mileage data.
+Even over time, the Automatic rate data seems accurate. The total monthly mileage tracks well between actuals and Automatic's calculations. I suspect the major month-to-month differences are a result of missed trips and timing mismatches between the trips data and my fill-up mileage data.
 
 ![plot of chunk comparison](/images/2015-02-28-validating-automatic-mileage-data/comparison.png) 
 
@@ -84,7 +89,7 @@ Rate data (mpg and cost per gallon) show even better accuracy.
 
 ![plot of chunk cpg](/images/2015-02-28-validating-automatic-mileage-data/cpg.png) 
 
-It's a little dissapointing to see the once-plummeting gasoline price level off in February, but it had to end eventually...
+It's a little disappointing to see the once-plummeting gasoline price level off in February, but it had to end eventually...
 
 ## Getting a little more precise
 
@@ -94,7 +99,7 @@ Since trips and fill-ups don't line up perfectly with months, I'd like to compar
 
 ![plot of chunk tankdf](/images/2015-02-28-validating-automatic-mileage-data/tankdf.png) 
 
-*The big swing you see at the end of November in my mileage records is the result of stopping at a gas stations that had some technical problems and I was able to fill my tank only partially. Since accurate estimates of fuel consumption require me to fill the tank each time, this skewed the numbers for this fill-up and the following one.*
+*The big swing you see at the end of November in my mileage records is the result of stopping at a gas station that had some technical problems and I was able to fill my tank only partially. Since accurate estimates of fuel consumption require me to fill the tank each time, this skewed the numbers for this fill-up and the following one.*
 
 ![plot of chunk cpg2](/images/2015-02-28-validating-automatic-mileage-data/cpg2.png) 
 
