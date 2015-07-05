@@ -45,7 +45,7 @@ Over the course of five months I recorded 53 trials. Here's a summary of the res
 ### Takeaways
 
 - The median time difference is 34 seconds. 
-- There is, indeed, greater volatility in times for te short route.
+- There is, indeed, greater volatility in times for the short route.
 - Even with volatility half the time the short route is faster than even the fastest trip on the long route.
 - However, by far the worst time was associated with the long route.
 
