@@ -9,8 +9,11 @@ title: About Quantary
 
 ### What you'll find here
 Hmm...
+
 * Recounting my experiences using data analysis and coding tools, finding and using public data, and developing dtaa-based "products."
+
 * Super-fascinating quantitative analysis.  Well, to me, anyway.  
+
 * Occasional home automation and lifehacking experiments.
 
 ## Why *Quantary*?
@@ -21,6 +24,6 @@ Also, I firmly believe that good data analysis is immediately applicable to real
 ## And who am I?
 Standard story: engineering undergrad + MBA.  Technical marketing, brief stint at a startup, then several years of corporate strategy and, now, corporate IT.  
 
-I'm not an actual Data Scientist.  But despite my concerted effort to distance myself from my quant roots, I don't think I've ever experienced [flow](http://en.wikipedia.org/wiki/Flow_(psychology%29) anywhere quite like I do when I have a new data set and I'm exploring.
+I'm not an actual Data Scientist.  But despite my concerted effort to distance myself from my quant roots, I don't think I've ever experienced [flow](http://en.wikipedia.org/wiki/Flow_(psychology%29)) anywhere quite like I do when I have a new data set and I'm exploring.
 
 So, I'm investigating what's out there.  In the past, I've constrained myself to readily available (organized, cleaned) data and whatever I could do in MS Excel.  Now, I'm going to let it loose a bit and see if I can find something amazing. 
