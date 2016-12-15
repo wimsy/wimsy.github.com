@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/wimsy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://quantary.net
+  * I am wimsy (https://keybase.io/wimsy) on keybase.
+  * I have a public key ASBNWL-FymbFG4gaVZY5BzuPrQG-1UsAdgge4RxjSj3l0Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d917dfb24f7997385e88a0c7c0f1333fa1a90d4db7a393c6de29383480f1e7dd0a",
+            "host": "keybase.io",
+            "kid": "01204d58bf85ca66c51b881a559639073b8fad01bed54b0076081ee11c634a3de5d00a",
+            "uid": "6852d82a193b4de52bc6e5e5ce7c1f00",
+            "username": "wimsy"
+        },
+        "service": {
+            "hostname": "quantary.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1481812990,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1481812867,
+        "hash": "e7a8f5e81ff46ebe3c6a4c8436a2b1f633db8e196ae4511a6c76244354ea09487b84aef3bfa845735d7cc4aaacbf2fab12aa81959c9204714604371d6f70aad4",
+        "seqno": 762826
+    },
+    "prev": "4a2f88b30a83ce0b100202abccd18c68d0300214f7b533e7a33f413eecd53ed0",
+    "seqno": 22,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTVi/hcpmxRuIGlWWOQc7j60BvtVLAHYIHuEcY0o95dAKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZDkxN2RmYjI0Zjc5OTczODVlODhhMGM3YzBmMTMzM2ZhMWE5MGQ0ZGI3YTM5M2M2ZGUyOTM4MzQ4MGYxZTdkZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGQ1OGJmODVjYTY2YzUxYjg4MWE1NTk2MzkwNzNiOGZhhKRib2R5hqhkZXRhY2h4MhKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCq1MhKRib2R5hqhkZXRhY2hlZMOpaGFzaF3YhKRib2R5CJ1hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCnshKRib2R5hqhkZXRhYdWFuhGFyeS5hKRib2R5hqhkZb2NhKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCdmlhKRib2R5hqhkZXRhY2hlZMOpaGiIhKRibImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDgxODEyOTkwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODE4MTI4NjcsImhhc2giOiJlN2E4ZjVlODFmZjQ2ZWJlM2M2YTRjODQzNmEyYjFmNjMzZGI4ZTE5NmFlNDUxMWE2Yzc2MjQ0MzU0ZWEwOTQ4N2I4NGFlZjNiZmE4NDU3MzVkN2NjNGFhYWNiZjJmYWIxMmFhODE5NTljOTIwNDcxNDYwNDM3MWQ2ZjcwYWFkNCIsInNlcW5vIjo3NjI4MjZ9LCJwcmV2IjoiNGEyZjg4YjMwYTgzY2UwYjEwMDIwMmFiY2NkMThjNjhkMDMwMDIxNGY3YjUzM2U3YTMzZjQxM2VlY2Q1M2VkMCIsInNlcW5vIjoyMiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECtO2qiXWHAMSPu629dkZoc1CGJp+Vur0lyu+DpVjIlw/3S2fjfOSQBwf2f88Nk3WMjCkny/Ud0VhNLQaSRaGILqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgl1momAy5npStsydg6HJq3ByAQTI+EFs8aaFWPUyu2r2jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wimsy
+
+==================================================================
