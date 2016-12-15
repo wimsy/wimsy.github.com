@@ -4,7 +4,7 @@ https://keybase.io/wimsy
 
 I hereby claim:
 
-  * I am an admin of http://quantary.net
+  * I am an admin of http://www.quantary.net
   * I am wimsy (https://keybase.io/wimsy) on keybase.
   * I have a public key ASBNWL-FymbFG4gaVZY5BzuPrQG-1UsAdgge4RxjSj3l0Ao
 
@@ -20,7 +20,7 @@ To do so, I am signing this object:
             "username": "wimsy"
         },
         "service": {
-            "hostname": "quantary.net",
+            "hostname": "www.quantary.net",
             "protocol": "http:"
         },
         "type": "web_service_binding",
@@ -30,21 +30,21 @@ To do so, I am signing this object:
         "name": "keybase.io go client",
         "version": "1.0.18"
     },
-    "ctime": 1481823633,
+    "ctime": 1481823833,
     "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1481823627,
-        "hash": "b0baa4c00ea5937663c6dea7bd545e07193cef069d3f057ca7e818046fe52e8a30e739398a1127f7aadbaae501621c9d0859b0cc79df133e266fb0c27c80e396",
-        "seqno": 763066
+        "ctime": 1481823816,
+        "hash": "8a7cc77a02b0de182d12bcdf9d34fa1edba0627d1570e8af1652012b61b1903dd6918e19cce7b1733ae35ace627e276062253f4b631482f09442fe3ba427d946",
+        "seqno": 763077
     },
-    "prev": "f1b6b918cb83ea2a90d21c7ea31345bdf8e054046b08095609f18b12d1f2422d",
-    "seqno": 24,
+    "prev": "fa28e67a241ba27ea45afc6fd90a65d17ffccb8e4cca5413d7072e54d815eb8b",
+    "seqno": 25,
     "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTVi/hcpmxRuIGlWWOQc7j60BvtVLAHYIHuEcY0o95dAKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZDkxN2RmYjI0Zjc5OTczODVlODhhMGM3YzBmMTMzM2ZhMWE5MGQ0ZGI3YTM5M2M2ZGUyOTM4MzQ4MGYxZTdkZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGQ1OGJmODVjYTY2YzUxYjg4MWE1NTk2MzkwNzNiOGZhZDAxYmVkNTRiMDA3NjA4MWVlMTFjNjM0YTNkZTVkMDBhIiwidWlkIjoiNjg1MhKRib2R5hqhkZXRhY2hlZMOpaGFzaF3YhKRib2RLCJ1hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlOnshKRib2R5hqhkZXRhY2WFudGFyeS5hKRib2R5hqhk0b2NhKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqmlhKRib2R5hqhkZXRhY2hlZMOpvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDgxODIzNjMzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODE4MjM2MjcsImhhc2giOiJiMGJhYTRjMDBlYTU5Mzc2NjNjNmRlYTdiZDU0NWUwNzE5M2NlZjA2OWQzZjA1N2NhN2U4MTgwNDZmZTUyZThhMzBlNzM5Mzk4YTExMjdmN2FhZGJhYWU1MDE2MjFjOWQwODU5YjBjYzc5ZGYxMzNlMjY2ZmIwYzI3YzgwZTM5NiIsInNlcW5vIjo3NjMwNjZ9LCJwcmV2IjoiZjFiNmI5MThjYjgzZWEyYTkwZDIxYzdlYTMxMzQ1YmRmOGUwNTQwNDZiMDgwOTU2MDlmMThiMTJkMWYyNDIyZCIsInNlcW5vIjoyNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAe/iPCcT4Zplly2UF4cwrX+/0NvAZ48G7ikgj173dWktRztQT0LbwRDHNTxJi0IbN5D2wMyRFALu6VL+wg9bkMqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgurdP9I4Yvvhf2EfTRX8VRci8ffF9ixi4HNqvq06pm8GjdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTVi/hcpmxRuIGlWWOQc7j60BvtVLAHYIHuEcY0o95dAKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZDkxN2RmYjI0Zjc5OTczODVlODhhMGM3YzBmMTMzM2ZhMWE5MGQ0ZGI3YTM5M2M2ZGUyOTM4MzhKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTVi/hwMhKRib2R5hqhkZXRhY2hlZMOpaGFzaE1NhKRib2wNzNihKRib2R5hqhkZXRiMDA3NhKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZg1MhKRib2R5hqhkZXRhY2hlZMOpaGFzaF3YhKRib2RLCJ1hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlOnsiaG9zdG5hbWUiOiJ3d3cucXVhbnRhcnkubmV0IiwicHJhKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCX3NhKRib2R5hqhkZXRhY2hlsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4MTgyMzgzMywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDgxODIzODE2LCJoYXNoIjoiOGE3Y2M3N2EwMmIwZGUxODJkMTJiY2RmOWQzNGZhMWVkYmEwNjI3ZDE1NzBlOGFmMTY1MjAxMmI2MWIxOTAzZGQ2OTE4ZTE5Y2NlN2IxNzMzYWUzNWFjZTYyN2UyNzYwNjIyNTNmNGI2MzE0ODJmMDk0NDJmZTNiYTQyN2Q5NDYiLCJzZXFubyI6NzYzMDc3fSwicHJldiI6ImZhMjhlNjdhMjQxYmEyN2VhNDVhZmM2ZmQ5MGE2NWQxN2ZmY2NiOGU0Y2NhNTQxM2Q3MDcyZTU0ZDgxNWViOGIiLCJzZXFubyI6MjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RACAZzFuDPNgtg3nnxNpgxaniFqPLMHCzARSDH/xn84/ses+J4Wbf6MCf3g19tXjE7sj9jyILJ2nHnWqGxOVpSDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFS/ej7qZ+8V8CM1LBAoS2XSXNDpNLE1ZX+QL63t1cFvo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
